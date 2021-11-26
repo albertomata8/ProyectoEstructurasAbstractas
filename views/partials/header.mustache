@@ -8,16 +8,18 @@
 		<!-- Menu -->
 		<div class="main_nav">
 			<nav class="menu col_header">
-				<ul class="main_menu">
-					<li><a href="contact-us.html">Contactos</a></li>
-                    <li><a href="contact-us.html">Menu</a></li>
-                    <li><a href="contact-us.html">Promociones</a></li>
-                    <li><a href="contact-us.html">Historia</a></li>
-                    <li><a href="contact-us.html">Horarios</a></li>
-                    <li><a href="contact-us.html">Express</a></li>
-                    <li><a href="contact-us.html">Reservaciones</a></li>
-                    <li><a href="contact-us.html">Galeria</a></li>
-                    <li><a href="contact-us.html">Blog</a></li>
+				<ul class="main_menu" style="width:auto">
+					<li><a href="/">Contactos</a></li>
+                    <li><a href="/">Menu</a></li>
+                    <li><a href="/">Promociones</a></li>
+                    <li><a href="/">Horarios</a></li>
+                    <li><a href="/">Express</a></li>
+                    <li><a href="/">Reservaciones</a></li>
+                    <li><a href="/mas">+</a></li>
+                    {{! <li><a href="/">Historia</a></li>
+                    <li><a href="/">Galeria</a></li>
+                    <li><a href="/">Blog</a></li> }}
+					
                     {{! <li><a href="index.html">Home</a>
 						<ul class="sub_menu">
 							<li><a href="index.html">Homepage</a></li>
@@ -65,8 +67,8 @@
 		</div>
 		<!-- Socials -->
 		<div class="icon-header col_header">
-			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a target="_blank" href="https://www.facebook.com/bashosushi/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a target="_blank" href="https://www.instagram.com/sushibasho/?hl=es{{process.env.INSTAGRAM}}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	<!-- Header Mobile -->
@@ -74,7 +76,9 @@
 	
 		<!-- Logo moblie -->		
 		<div class="logo-mobile">
-			<a href="index.html"><img alt="logo-deli" src="images/logo.jpg"></a>
+			<a href="/">
+			<img alt="logo-deli" src="images/logo_black.jpg">
+			</a>
 		</div>
 		<!-- Button show menu -->
 		<div class="btn-show-menu">
@@ -89,7 +93,7 @@
 	<div class="wrap-side-menu" >
 		<nav class="side-menu">
 			<ul class="main-menu">
-				<li>
+				{{! <li>
 					<a href="index.html">Home</a>
 					<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 					<ul class="sub-menu">
@@ -131,7 +135,6 @@
 						<li><a href="shopping-cart.html">Shopping Cart</a></li>
 						<li><a href="check-out.html">Check Out</a></li>
 					</ul>
-				</li>
 				<li>
 					<a href="blog-list-with-sidebar-01.html">Blog</a>
 					<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
@@ -142,8 +145,16 @@
 						<li><a href="blog-detail.html">Blog Detail</a></li>
 					</ul>
 				</li>
+				</li> }}
 				<li>
-					<a href="contact-us.html">Contact</a>
+					<li><a href="/">Contactos</a></li>
+                    <li><a href="/">Menu</a></li>
+                    <li><a href="/">Promociones</a></li>
+                    <li><a href="/">Historia</a></li>
+                    <li><a href="/">Horarios</a></li>
+                    <li><a href="/">Express</a></li>
+                    <li><a href="/">Reservaciones</a></li>
+                    <li><a href="/mas">+</a></li>
 				</li>
 			</ul>
 		</nav>

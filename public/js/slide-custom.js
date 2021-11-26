@@ -96,14 +96,14 @@ var screenH = $(window).height();
                 },
  
                 arrows: {
-                    enable: false,
+                    enable: true,
                     style: 'hesperiden',
                     hide_onleave: true
 
                 },
  
                 bullets: {
-                    enable: false,
+                    enable: true,
                     style: 'uranus',
                     tmp: '<span class="tp-bullet-inner"></span>',
                     hide_onleave: false,
@@ -153,14 +153,14 @@ var screenH = $(window).height();
                 },
  
                 arrows: {
-                    enable: false,
+                    enable: true,
                     style: 'hesperiden',
                     hide_onleave: true
 
                 },
  
                 bullets: {
-                    enable: false,
+                    enable: true,
                     style: 'uranus',
                     tmp: '<span class="tp-bullet-inner"></span>',
                     hide_onleave: false,

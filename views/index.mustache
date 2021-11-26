@@ -2,6 +2,17 @@
 <html lang="en">
 <head>
     {{>head}}
+	<style type="text/css">
+		.blog-post {
+			border:1px solid #ddd;
+			border-redius:3px;
+			background: #fffffa;
+		
+		}
+		.blog-detail {
+			padding: 16px;
+		}
+	</style>
 </head>
 <body  class="animsition">
 
@@ -48,7 +59,7 @@
 					    data-width="['1140','960','720','540']"
 					    data-lineheight="['150', '150', '120', '100']"
 					    data-fontsize="['110', '110', '100', '90']"
-					    data-height="['auto']">Seasonal Flavours</h3>
+					    data-height="['auto']">Bienvenidos a Basho</h3>
 						
 						<div id="btn-slide-1" class="tp-caption tp-resizeme btn-slide"
 						data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -58,8 +69,8 @@
 					    data-voffset="['80','80','110','110']" 
 					    data-width="['910','910','380','380']"
 					    data-height="['auto']">
-								<a href="menu-01.html" class="btn2">VIEW MENU</a>
-								<a href="reservation-02.html" class="btn2">BOOK A TABLE</a>
+								<a href="/login" class="btn2">Login</a>
+								{{!<a href="reservation-02.html" class="btn2">BOOK A TABLE</a> }}
 						</div>
 					</li>
 
@@ -76,7 +87,7 @@
 					    data-width="['1140','960','720','540']"
 					    data-lineheight="['150', '150', '120', '100']"
 					    data-fontsize="['110', '110', '100', '90']"
-					    data-height="['auto']">Fresh Ingredients</h3>
+					    data-height="['auto']">Frescos Ingredientes</h3>
 
 					    <div  class="tp-caption tp-resizeme btn-slide caption-2"
 						data-frames='[{"delay":2500,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -95,8 +106,8 @@
 					    data-voffset="['110','110','140','140']" 
 					    data-width="['910','910','380','380']"
 					    data-height="['auto']">
-								<a href="menu-01.html" class="btn2">VIEW MENU</a>
-								<a href="reservation-02.html" class="btn2">BOOK A TABLE</a>
+								{{! <a href="menu-01.html" class="btn2">VIEW MENU</a>
+								<a href="reservation-02.html" class="btn2">BOOK A TABLE</a> }}
 						</div>
 					</li>
 
@@ -113,7 +124,7 @@
 					    data-width="['1140','960','720','540']"
 					    data-lineheight="['150', '150', '120', '100']"
 					    data-fontsize="['110', '110', '100', '90']"
-					    data-height="['auto']">Deli Restaurant</h3>
+					    data-height="['auto']">Diversidad de platillos</h3>
 						
 						<div id="btn-slide-3" class="tp-caption tp-resizeme btn-slide"
 						data-frames='[{"delay":2300,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -123,8 +134,8 @@
 					    data-voffset="['80','80','110','110']"
 					    data-width="['910','910','380','380']"
 					    data-height="['auto']">
-								<a href="menu-01.html" class="btn2">VIEW MENU</a>
-								<a href="reservation-02.html" class="btn2">BOOK A TABLE</a>
+								{{! <a href="menu-01.html" class="btn2">VIEW MENU</a>
+								<a href="reservation-02.html" class="btn2">BOOK A TABLE</a> }}
 						</div>
 					</li>
 				</ul>				
@@ -139,26 +150,26 @@
 			<!-- title our menu -->
 			<div class="wrap-title-our-menu row">
 				<div class="col-12 title-our-menu">
-					<h6>try &amp; discover</h6>
-					<h2>Our Menus</h2>
+					<h6>prueba &amp; descubre</h6>
+					<h2>Nuestro Menú</h2>
 				</div>
 			</div>
 
 			<!-- food menu -->
 			<div class="row wrap-food-menu">
-				<div id="food-menu">
+				<div id="food-menu" style="width:auto">
 					<ul class="nav nav-tabs" id="myTab" role="tablist">
 						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-expanded="true">Lunch</a>
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-expanded="true">Almuerzo</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="tab-dinner" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner">Dinner</a>
+							<a class="nav-link" id="tab-dinner" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner">Cena</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="tab-dessert" data-toggle="tab" href="#dessert" role="tab" aria-controls="dessert">Dessert</a>
+							<a class="nav-link" id="tab-dessert" data-toggle="tab" href="#dessert" role="tab" aria-controls="dessert">Postres</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="tab-private-dinner" data-toggle="tab" href="#private-dinner" role="tab" aria-controls="private-dinner">Private Dinner</a>
+							<a class="nav-link" id="tab-private-dinner" data-toggle="tab" href="#private-dinner" role="tab" aria-controls="private-dinner">Bowls</a>
 						</li>
 					</ul>
 				</div>
@@ -963,43 +974,58 @@
 			<!-- title event -->
 			<div class="wrap-title-event row">
 				<div id="title-event" class="col-12">
-					<h6>Discover Our</h6>
-					<h2>Upcoming Events</h2>
+					<h6>Descubre nuestros</h6>
+					<h2>Próximos Eventos</h2>
 				</div>
 					<div class="content-event col-sm-10 col-md-8 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-						<div class="img-event">
-							<a href="blog-detail.html"><img alt="picture-event" src="images/img-event-01.jpg"></a>
+						<div class="blog-post" >
+							<div class="img-event">
+								<a href="#"><img alt="picture-event" src="images/img-event-01.jpg">
+								</a>
+							</div>
+							<div class="blog-detail">
+								<h3><a class="hover-link-color" href="blog-detail.html">San Valentin</a></h3>
+								<p>
+									Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
+								</p>
+								<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 21 June, 2017</span>
+								<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00AM - 22:00PM</span>
+							</div>
 						</div>
-						<h3><a class="hover-link-color" href="blog-detail.html">Deli Summer Auscoutics</a></h3>
-						<p>
-							Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
-						</p>
-						<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 21 June, 2017</span>
-						<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00AM - 22:00PM</span>
-					</div>
+				</div>
 
 					<div class="content-event col-sm-10 col-md-8 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-						<div class="img-event">
-							<a href="blog-detail.html"><img alt="picture-event" src="images/img-event-02.jpg"></a>
+						<div class="blog-post" >
+							<div class="img-event">
+								<a href="#"><img alt="picture-event" src="images/img-event-01.jpg">
+								</a>
+							</div>
+							<div class="blog-detail">
+								<h3><a class="hover-link-color" href="blog-detail.html">Musica en vivo</a></h3>
+								<p>
+									Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
+								</p>
+								<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 21 June, 2017</span>
+								<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00AM - 22:00PM</span>
+							</div>
 						</div>
-						<h3><a class="hover-link-color" href="blog-detail.html">The Live Jazz Music Night</a></h3>
-						<p>
-							Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
-						</p>
-						<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 22 June, 2017</span>
-						<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 19:00PM - 23:00PM</span>
 					</div>
 
 					<div class="content-event col-sm-10 col-md-8 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="img-event">
-							<a href="blog-detail.html"><img alt="picture-event" src="images/img-event-03.jpg"></a>
+						<div class="blog-post" >
+							<div class="img-event">
+								<a href="#"><img alt="picture-event" src="images/img-event-01.jpg">
+								</a>
+							</div>
+							<div class="blog-detail">
+								<h3><a class="hover-link-color" href="blog-detail.html">Promocion de barco de sushi</a></h3>
+								<p>
+									Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
+								</p>
+								<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 21 June, 2017</span>
+								<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00AM - 22:00PM</span>
+							</div>
 						</div>
-						<h3><a class="hover-link-color" href="blog-detail.html">Mother’s Day Celebrating at Deli</a></h3>
-						<p>
-							Proin lacinia nisl ut ultricies posuere nulla ut imperdiet nunc. Quisque id tellus vitae mauris feugiat comodone, donec pretium odio nec sagittis euismod.
-						</p>
-						<span class="date-event"><i class="fa fa-calendar" aria-hidden="true"></i> 23 June, 2017</span>
-						<span class="time-event"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00AM - 22:00PM</span>
 					</div>
 			</div>			
 		</div>

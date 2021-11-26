@@ -1,2 +1,28 @@
-# ProyectoEstructurasAbstractas
-Este git contiene el proyecto final del curso de Estructuras abstractas, consiste en una página web de un restaurante de Sushi. El frontend desarrollado en reactores y el back end se desarrolló en python utilizando flask.
+# base-restaurantTest
+
+This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
+
+## Instructions
+After cloning into repo, cd to project root directory and install dependencies:
+
+```
+$ npm install
+```
+
+To run dev server, install Turbo CLI globally:
+
+```
+$ sudo npm install turbo-cli -g
+```
+
+Then run devserver from project root directory:
+
+```
+$ turbo devserver
+```
+
+To build for production, run build:
+
+```
+$ npm run build
+```

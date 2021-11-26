@@ -21,9 +21,9 @@ Primary use:	Company
 
 # Text Color (text): #666666
 # Text Color Deep (Text, title): #333333
-# Primary Color 01(Link):  #e52233
-# Primary Color 02(Link):   #e52233
-# Primary Color 03(Link):  #e52233
+# Primary Color 01(Link):  #ff0015
+# Primary Color 02(Link):   #ff0015
+# Primary Color 03(Link):  #ff0015
 
 ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -64,7 +64,8 @@ a{
 }
 a:hover {
 	text-decoration: none;
-	color: #e52233;
+	color: #ff0015;
+
 }
 p {
 	font-family: OpenSans;
@@ -135,7 +136,7 @@ iframe {
 	text-decoration: none;
 	font-family: OpenSans;
 	text-transform: uppercase;
-	background-color: #e52233;
+	background-color: #ff0015;
 	color: white;
 	border: none;
 	-webkit-transition: all 0.4s;
@@ -220,6 +221,7 @@ iframe {
 	height: 70px;
 	margin-top: 27px;
 	position: relative;
+	
 }
 .main_menu>li {
 	display: block;
@@ -231,7 +233,7 @@ iframe {
 }
 .main_menu > li > a {
 	font-family: OpenSans-Bold;
-	font-size: 14px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	line-height: 5;
 	color: #c6c6c6;
@@ -239,15 +241,15 @@ iframe {
 }
 
 .main_menu>li:hover > a{
- 	color: #e52233;
+ 	color: #ff0015;
  	text-decoration: none;
 }
 
 .sub_menu>li:hover > a{
- 	color: #e52233;
+ 	color: #ff0015;
  	text-decoration: none;
 }
-/* .main_menu>li:hover span{border-left: 5px solid #e52233; transform: rotate(90deg);} */
+/* .main_menu>li:hover span{border-left: 5px solid #ff0015; transform: rotate(90deg);} */
 .main_menu>li:hover .sub_menu{
 	visibility: visible;
 	opacity: 1;
@@ -319,7 +321,7 @@ iframe {
 	padding: 10px;
 }
 .icon-header a:hover {
-	color: #e52233;
+	color: #ff0015;
 }
 /*................................................................... Header Desktop .../
 
@@ -410,7 +412,7 @@ iframe {
     transition: all 0.4s !important;
 }
 .side-menu .main-menu .arrow-main-menu:hover {
-	color: #e52233;
+	color: #ff0015;
 	cursor: pointer;
 }
 .turn-arrow{transform: rotate(90deg);}
@@ -430,7 +432,7 @@ iframe {
 
 .side-menu a:hover {
 	text-decoration: none;
-	color: #e52233;
+	color: #ff0015;
 }
 .side-menu .sub-menu {
 	display: none;
@@ -445,11 +447,11 @@ iframe {
 
 /*=================================================================== Slider ===*/
 .uranus .tp-bullet.selected, .uranus .tp-bullet:hover {
-    box-shadow: 0 0 0 1px #e52233;
-    -moz-box-shadow: 0 0 0 1px #e52233;
-    -webkit-box-shadow: 0 0 0 1px #e52233;
-    -o-box-shadow: 0 0 0 1px #e52233;
-    -ms-box-shadow: 0 0 0 1px #e52233;
+    box-shadow: 0 0 0 1px #ff0015;
+    -moz-box-shadow: 0 0 0 1px #ff0015;
+    -webkit-box-shadow: 0 0 0 1px #ff0015;
+    -o-box-shadow: 0 0 0 1px #ff0015;
+    -ms-box-shadow: 0 0 0 1px #ff0015;
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
 
@@ -458,13 +460,13 @@ iframe {
 .uranus .tp-bullet.selected .tp-bullet-inner, .uranus .tp-bullet:hover .tp-bullet-inner {
     transform: scale(0.6);
     -webkit-transform: scale(0.6);
-    background-color: #e52233;
+    background-color: #ff0015;
 }
 
 .uranus .tp-bullet {
 	width: 10px;
 	height: 10px;
-    background-color: #e52233;
+    background-color: #ff0015;
 }
 #slider-deli .caption-1 {
 	font-family: PlayfairDisplay-Bold;
@@ -498,7 +500,7 @@ iframe {
 	width: 170px !important;
 	height: 50px !important;
 	margin: 10px;
-	border: 2px solid #e52233;
+	border: 2px solid #ff0015;
 	line-height: 46px !important;
 	text-align: center;
 	font-size: 14px !important;
@@ -510,20 +512,20 @@ iframe {
     transition: transform 0.4s !important;
 }
 .btn2{
-	background-color: #e52233;
+	background-color: #ff0015;
 	color: white;
 	text-decoration: none;
 	font-weight: normal;
 }
 .btn1 {
-	color: #e52233;
+	color: #ff0015;
 	text-decoration: none;
 	font-weight: normal;
 }
 .btn1:hover{
 	transform: scale(1.05);
 	text-decoration: none;
-	color: #e52233;
+	color: #ff0015;
 }
 
 .btn2:hover{
@@ -577,7 +579,7 @@ iframe {
 .nav-tabs .nav-link.active {
     background-color: transparent;
     border-color: transparent;
-    color: #e52233 !important;
+    color: #ff0015 !important;
 }
 .nav-tabs {
     border-bottom: none;
@@ -599,7 +601,7 @@ iframe {
 	list-style-type: none;
 	text-align: center;
 }
-#food-menu a:hover{text-decoration: none; color: #e52233;}
+#food-menu a:hover{text-decoration: none; color: #ff0015;}
 #food-menu a{
 	padding-left: 16px;
 	padding-right: 17px;
@@ -665,7 +667,7 @@ iframe {
 }
 .hover-link-color:hover{
 	text-decoration: none;
-	color: #e52233;
+	color: #ff0015;
 }
 .line-food{
 	border-bottom: 1px solid #c9c9c9;
@@ -719,14 +721,14 @@ iframe {
 }
 @keyframes nameRun {
 	0% {color: #333333;}
-	15% {color: #e52233;}
-	100% {color: #e52233;}
+	15% {color: #ff0015;}
+	100% {color: #ff0015;}
 }
 @keyframes priceRun {
 	0% {color: #333333;}
 	60% {color: #333333;}
-	80% {color: #e52233;}
-	100% {color: #e52233;}
+	80% {color: #ff0015;}
+	100% {color: #ff0015;}
 }
 .line-food {
 	position: relative;
@@ -738,7 +740,7 @@ iframe {
 	position: absolute;
 	left: 0;
 	bottom: -1px;
-	background-color: #e52233;
+	background-color: #ff0015;
 	animation: lineRun 1s linear 1;
 }
 .name-run>a {
@@ -805,7 +807,7 @@ iframe {
 .line-symbol-banner{
 	position: absolute;
 	height: 1px;
-	background-color: #e52233;
+	background-color: #ff0015;
 	-webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -999,7 +1001,7 @@ iframe {
 	font-size: 14px;
 	text-decoration: none;
 	font-family: OpenSans;
-	background-color: #e52233;
+	background-color: #ff0015;
 	color: white;
 	border: none;
 	-webkit-transition: all 0.4s;
@@ -1031,7 +1033,7 @@ iframe {
 	color: #666666 !important;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #e52233;
+  background-color: #ff0015;
   color: white; 
   /* outline: none; */
   outline-color: #333333;
@@ -1042,7 +1044,7 @@ iframe {
 	color: #666666 !important;
 }
 td.active {
-	background-color: #e52233 !important;
+	background-color: #ff0015 !important;
 }
 .select2-container--default .select2-selection--single {
 	padding-top: 10px;
@@ -1139,7 +1141,7 @@ footer ul li a {
 }
 footer ul li a:hover {
 	text-decoration: none; 
-	color: #e52233;
+	color: #ff0015;
 }
 .content-footer {
 	padding-top: 100px;
@@ -1396,7 +1398,7 @@ footer ul li a:hover {
 	text-decoration: none;
 	font-family: OpenSans;
 	text-transform: uppercase;
-	background-color: #e52233;
+	background-color: #ff0015;
 	color: white;
 	border: none;
 	margin: auto;
@@ -1425,8 +1427,8 @@ footer ul li a:hover {
     transition: all 0.4s;
 }
 .read-more-event:hover {
-	text-decoration-color: #e52233 !important;
-	color: #e52233 !important;
+	text-decoration-color: #ff0015 !important;
+	color: #ff0015 !important;
 }
 
 /*------------------------------------------------------------------- Footer ---*/
@@ -1556,7 +1558,7 @@ footer ul li a:hover {
 }
 
 .content-menu-02 .hover-img:hover .text-in-img-menu-02{
-	background-color: #e52233 ;
+	background-color: #ff0015 ;
 	opacity: 0.5;
 }
 
@@ -1744,7 +1746,7 @@ footer ul li a:hover {
 }
 .content-contact-us ul li a:hover {
 	text-decoration: none; 
-	color: #e52233;
+	color: #ff0015;
 }
 
 .follow-us a {
@@ -2002,7 +2004,7 @@ footer ul li a:hover {
 	bottom: 0px;
 }
 .content-shop-page .item-shop-page a:hover .name-item {
-	color: #e52233;
+	color: #ff0015;
 }
 
 
@@ -2097,7 +2099,7 @@ footer ul li a:hover {
 
 /* #draggable3:hover {
 	cursor: unset;
-	background-color: #e52233;
+	background-color: #ff0015;
 } */
 
 .filter-price-bar {
@@ -2217,7 +2219,7 @@ background-color: #999999;
 .btn-add-to-cart-product.btn-with-bg {
 	width: 156px;
 	display: inline-block;
-	border: 1px solid #e52233;
+	border: 1px solid #ff0015;
 	margin-left: 14px;
 }
 
@@ -2238,7 +2240,7 @@ background-color: #999999;
 }
 .show-content-info-product:hover {
 	cursor: pointer;
-	color: #e52233;
+	color: #ff0015;
 }
 
 @media (max-width: 768px) {
@@ -2376,7 +2378,7 @@ background-color: #999999;
 }
 .table-shopping-cart .btn-remove-product:hover {
 	cursor: pointer;
-	color: #e52233;
+	color: #ff0015;
 }
 
 /*===================================================================  ===*/
@@ -2551,8 +2553,8 @@ background-color: #999999;
 	height: 53px;
 	line-height: 48px !important;
 	background-color: white;
-	color: #e52233;
-	border: 2px solid #e52233;
+	color: #ff0015;
+	border: 2px solid #ff0015;
 	margin-bottom: 5px;
 }
 .wrap-btn-login {
@@ -2747,7 +2749,7 @@ background-color: #999999;
 	opacity: 1;
 	transform: scale(1.2);
 	cursor: pointer;
-	border: 2px solid #e52233;
+	border: 2px solid #ff0015;
 }
 
 .wrap-payment .btn-with-bg {
@@ -3141,7 +3143,7 @@ background-color: #999999;
 }
 
 #wrap_header_boxed .main_menu > li:hover > a {
-	color: #e52233;	
+	color: #ff0015;	
 }
 
 @media (max-width: 1100px){
@@ -3223,7 +3225,7 @@ background-color: #999999;
 
 .footer-home-boxed ul li a:hover {
 	text-decoration: none; 
-	color: #e52233;
+	color: #ff0015;
 }
 
 
@@ -3245,12 +3247,12 @@ background-color: #999999;
 /*///////////////////////////////////////////////////////////////////////////////////// Home Onepage /*/
 
 .wrap-home-onepage {
-	border: 10px solid #e52233;
+	border: 10px solid #ff0015;
 }
 
 @media (max-width: 576px) {
 	.wrap-home-onepage {
-		border: 5px solid #e52233;
+		border: 5px solid #ff0015;
 	}
 }
 
@@ -3318,7 +3320,7 @@ background-color: #999999;
 }
 
 .home-onepage-menu-bar a:hover {
-	color: #e52233;
+	color: #ff0015;
 }
 
 
@@ -3352,11 +3354,11 @@ background-color: #999999;
 }
 
 .home-onepage-menu-bar-top a:hover {
-	color: #e52233;
+	color: #ff0015;
 }
 
 .active-menu-bar {
-	color: #e52233 !important;
+	color: #ff0015 !important;
 }
 
 @media (max-width: 992px) {
@@ -3680,7 +3682,7 @@ background-color: #999999;
 }
 
 .restyle-home-showcase .icon-header a:hover {
-    color: #e52233;
+    color: #ff0015;
 }
 
 
@@ -3817,7 +3819,7 @@ background-color: #999999;
 	height: 48px;
 	opacity: 0.8;
 	cursor: pointer;
-	background-color: #e52233;
+	background-color: #ff0015;
 }
 
 @media (max-width: 576px) {
@@ -3842,3 +3844,4 @@ background-color: #999999;
 		background-attachment: inherit;
 	}
 }
+
