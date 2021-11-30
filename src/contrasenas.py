@@ -120,20 +120,3 @@ class passw_manager:
         self.data.close()
         return True
 
-
-    ## Metodo que realiza la edicion del apellido
-    def editapellido(self, username, lastname):
-        self.data = sqlite3.connect(self.base)
-        c = self.data.cursor()
-
-
-    ## Metodo que realiza la actualizacon del username
-    def editusername(self, username, newusername):
-        self.data = sqlite3.connect(self.base)
-        c = self.data.cursor()
-
-    ## Metodo que actualiza la contraseña del usuario
-    def editpassword(self, username, password):
-        self.data = sqlite3.connect(self.base)
-        c = self.data.cursor()
-
